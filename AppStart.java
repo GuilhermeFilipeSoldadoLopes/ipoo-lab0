@@ -14,6 +14,6 @@ public class AppStart
         size = Size.MEDIUM;
         int i=0;
         i++;
-        System.out.println("Name: " + size.name() + "\ntoString(): " + size + "\nOrdem: " + i + "\nValor minimo: " + size.getMinValue() + "\nValor maximo: " + size.getMaxValue() + "\nCódigo: " + size.getCode());
+        System.out.println("Name: " + size.name() + "\ntoString(): \"" + size + "\"\nOrdem: " + i + "\nValor minimo: " + size.getMinValue() + "\nValor maximo: " + size.getMaxValue() + "\nCódigo: \'" + size.getCode() + "\'");
     }
 }
